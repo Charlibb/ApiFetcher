@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+  />
+       <title>API Fetcher</title>
+</head>
+<body>
+
+    <main class="container">
+        <section>
+
+            <h2 >API Fetcher</h2>
+            <form id="form">
+              <label>
+                IP del usuario
+                <input required id="input" type="text" placeholder="Introduce aquí la IP">
+                <small>Por ejemplo: 54.85.132.205</small>
+              </label>
+        
+              <button type="submit" id="submit">
+                Buscar información de esta IP
+              </button>
+        
+            </form>
+        
+            <div>
+              <pre id="results"></pre>
+            </div>
+        </section>
+
+      </main>
+</body>
+<script type="module" src="script.js"></script> 
+</html>
